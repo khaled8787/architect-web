@@ -8,3 +8,35 @@
     font-weight: 400;
     font-style: normal;
   }
+
+
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-link{
+    display: flex;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .nav-item{
+    list-style: none;
+    margin-right: 30px;
+  }
+
+  .text-gray{
+    color: #424242;
+  }
+  .text-light-gray{
+    color: #727272;
+  }
+  .bg-light{
+    background-color: rgba(221, 255, 14, 0.1);
+  }
+
+  .navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
