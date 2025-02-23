@@ -161,6 +161,28 @@ main > section{
     filter: grayscale(100%);
   }
 
+  #feature-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+  }
+
+  .feature-card .feature-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+   margin-top: 0;
+   margin-bottom: 0;
+  }
+
+  .feature-card{
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+  }
+
+  .features{
+    gap: 100px;
+  }
+
   @media screen and (max-width: 576px) {
     .navbar, .nav-link, .teams{
         flex-direction: column;
