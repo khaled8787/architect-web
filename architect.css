@@ -200,6 +200,18 @@ main > section{
     width: 100%;
   }
 
+  .foot{
+    text-align: center;
+    background-color: #FFF4E7;
+    margin-left: 18%;
+    margin-right: 18%;
+    color: rgba(66, 66, 66, 1);
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding: 17px;
+
+  }
+
   @media screen and (max-width: 576px) {
     .navbar, .nav-link, .teams{
         flex-direction: column;
@@ -208,7 +220,7 @@ main > section{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-    .facts-container, .sponsor-companies{
+    .facts-container, .sponsor-companies, .foot{
       justify-items: center;
       gap: 24px;
     }
@@ -218,6 +230,9 @@ main > section{
    #experience-badge{
     margin-top: 20px;
     margin-left: 20px;
+   }
+   .foot{
+    text-align: center;
    }
   }
 
